@@ -1,0 +1,46 @@
+
+
+header {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+header h1 {
+  color: rgb(202, 158, 62);
+}
+
+header p {
+  color: rgb(95, 83, 58);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15rem;
+  height: 10rem;
+  color: rgb(218, 205, 183);
+  background-color: rgb(48, 42, 31);
+  padding: 3rem 1rem;
+  margin: 0 1rem;
+  border-radius: 6px;
+}
+
+main a:hover {
+  background-color: rgb(100, 81, 43);
+}
+
+@media (max-width:48rem) {
+  main {
+    flex-direction: column;
+  }
+  main div {
+    margin-bottom: 1rem;
+  }
+}

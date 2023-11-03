@@ -1,0 +1,16 @@
+main {
+  text-align: center;
+  color: rgb(95, 83, 58);
+  max-width: 50rem;
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+h1 {
+  color: rgb(202, 158, 62);
+}
+
+p {
+  max-width: 30rem;
+  margin: 1rem auto;
+}

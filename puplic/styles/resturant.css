@@ -1,0 +1,47 @@
+.main-info {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.main-info h1 {
+  color: rgb(202, 158, 62);
+}
+
+.main-info p {
+  color: rgb(95, 83, 58);
+}
+
+.resturants {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.resturant {
+  width: 60%;
+  max-width: 50rem;
+  background-color: rgb(250, 233, 194);
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+  padding: 1rem;
+  color: rgb(110, 78, 7);
+  margin: 2rem auto;
+}
+
+.resturant p ,.resturant h2 , .resturant a {
+  margin: 0.3rem;
+}
+
+.adress {
+  color: rgb(170, 148, 95);
+}
+
+.describtion {
+  color: rgb(110, 78, 7);
+}
+
+.resturant div {
+  text-align: end;
+}
